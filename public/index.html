@@ -1,13 +1,249 @@
 <!DOCTYPE html>
 <html>
   <head lang="en">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Homework 5</title>
-    <link rel="shortcut icon" href="/favicon.ico">
-    <link rel="stylesheet" href="/screen.css">
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="stylesheet" href=" https://use.typekit.net/fgw7kgu.css" />
+    <link rel="stylesheet" href="/screen.css" />
   </head>
+
   <body>
-    <h1 class='hello-world'>Hello, World!</h1>
+    <!-- Header Profile Element -->
+
+    <!-- Profile Pic -->
+    <header class="header-wrapper">
+      <div class="header-profile-container">
+        <img
+          class="header-profile-picture"
+          src="Images/profile/profile-pic.jpg"
+        />
+        <h1 id="h1-underlay">Hi,</h1>
+        <h1 id="h1-overlay">Hi,</h1>
+      </div>
+
+      <!-- Profile Description -->
+      <div class="header-profile-description">
+        <h3>I'm Kento Kawakami</h3>
+        <p>I'm not a Jr. Front-End Engineer in St.Petersburg FL</p>
+      </div>
+    </header>
+
+    <!-- Body Portfolio/blog Element -->
+
+    <!-- Portfolio -->
+    <div class="body-wrapper">
+      <ul class="body-portfolio-wrapper">
+        <!-- Portfolio List Item Start-->
+        <li>
+          <a href="https://git-cheat-sheet-kento.netlify.com/"><div class="body-portfolio-container">
+            <img
+              class="body-portfolio-item"
+              src="Images/portfolio/git-cheat-sheet-thumbnail.png"
+            />
+            <div class="body-portfolio-overlay">
+              <h5 class="body-portfolio-item-text">Git Cheat Sheet</h5>
+            </div>
+          </a>
+        </li>
+
+        <li>
+            <a href="https://expanding-your-world-kento.netlify.com/">
+          <div class="body-portfolio-container">
+            <img
+              class="body-portfolio-item"
+              src="Images/portfolio/expanding-your-world-thumbnail.png"
+            />
+            <div class="body-portfolio-overlay">
+              <H5 class="body-portfolio-item-text">Expanding Your World</H5>
+            </div>
+          </a>
+        </li>
+
+        <li>
+            <a href="https://homework-4-kento.netlify.com/">
+          <div class="body-portfolio-container">
+            <img
+              class="body-portfolio-item"
+              src="Images/portfolio/Github-octodex-thumbnail.png"
+            />
+            <div class="body-portfolio-overlay">
+              <H5 class="body-portfolio-item-text">Git Hub Octodex</H5>
+            </div>
+          </a>
+        </li>
+
+        <!-- Portfolio List Item End -->
+      </ul>
+
+      <!-- Blog -->
+        <div class="body-blog-container">
+
+
+          <ul>
+
+
+          <li class="body-blog-items">
+            <header class="body-blog-item-header"></header>
+            <div class="body-blog-item-content">
+              <h3 class="body-blog-item-title">Hello, React.</h3>
+              <h6 class="body-blog-item-date">December 6th, 2017</h6>
+              <p class="body-blog-item-paragraph">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus
+                pariatur eius, ratione possimus officiis porro veritatis vel?
+                Totam quam nam ab tempora, illo distinctio dolor laudantium
+                assumenda vero iure tempore!
+              </p>
+              <footer class="body-blog-item-footer">
+                <button class="body-blog-item-button">
+                  <h4>Keep Reading</h4>
+                </button>
+              </footer>
+            </div>
+          </li>
+
+          <li class="body-blog-items">
+              <header class="body-blog-item-header"></header>
+              <div class="body-blog-item-content">
+                <h3 class="body-blog-item-title">Hello, React.</h3>
+                <h6 class="body-blog-item-date">December 6th, 2017</h6>
+                <p class="body-blog-item-paragraph">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus
+                  pariatur eius, ratione possimus officiis porro veritatis vel?
+                  Totam quam nam ab tempora, illo distinctio dolor laudantium
+                  assumenda vero iure tempore!
+                </p>
+                <footer class="body-blog-item-footer">
+                  <button class="body-blog-item-button">
+                    <h4>Keep Reading</h4>
+                  </button>
+                </footer>
+              </div>
+            </li>
+
+          </ul>
+        </div>
+  
+      </div>
+    </div>
+
+    <!-- Footer Social Media Element -->
+    <footer class="footer-wrapper">
+      <h4>Stay connected with me.</h4>
+      <ul class="footer-social-media">
+        <li>
+           <a href="http://instagram.com/kento.kawakami"><svg class="social-media" x="0px" y="0px"
+            viewBox="0 0 128 128" enable-background="new 0 0 128 128">
+         <g>
+           <circle id="instagram-back" fill="#FCCA46" cx="64" cy="64" r="64"/>
+           <path id="instagram-instagram" fill-rule="evenodd" clip-rule="evenodd" fill="#FFFFFF" d="M91.5713,58.4829h-6.2402
+             c0.4541,1.7651,0.7236,3.6089,0.7236,5.5156c0,12.1831-9.875,22.0562-22.0552,22.0562c-12.1797,0-22.0542-9.8731-22.0542-22.0562
+             c0-1.9067,0.2695-3.7505,0.7246-5.5156h-6.2407v30.3286c0,1.5205,1.2349,2.7549,2.7598,2.7549h49.6215
+             c1.5254,0,2.7608-1.2344,2.7608-2.7549V58.4829z M91.5713,39.186c0-1.5219-1.2354-2.7568-2.7608-2.7568H80.542
+             c-1.5225,0-2.7568,1.2349-2.7568,2.7568v8.272c0,1.522,1.2343,2.7568,2.7568,2.7568h8.2685c1.5254,0,2.7608-1.2348,2.7608-2.7568
+             V39.186z M63.9995,50.2148c-7.6133,0-13.7847,6.1705-13.7847,13.7837c0,7.6128,6.1714,13.7867,13.7847,13.7867
+             c7.6138,0,13.7857-6.1739,13.7857-13.7867C77.7852,56.3853,71.6133,50.2148,63.9995,50.2148 M91.5713,99.8398H36.4292
+             c-4.5664,0-8.269-3.7041-8.269-8.2734V36.4292c0-4.5669,3.7026-8.269,8.269-8.269h55.1421c4.5674,0,8.2685,3.7021,8.2685,8.269
+             v55.1372C99.8398,96.1357,96.1387,99.8398,91.5713,99.8398"/>
+         </g>
+         </svg>
+        </a> 
+        </li>
+
+        <li>
+            <a href="http://www.facebook.com/1288038050"><svg class="social-media" x="0px" y="0px"
+            viewBox="0 0 128 128" enable-background="new 0 0 128 128" xml:space="preserve">
+         <g>
+           <circle id="facebook-back" fill="#FCCA46" cx="64" cy="64" r="64"/>
+           <path id="facebook-facebook" fill="#FFFFFF" d="M95.1367,29H32.8638C30.7295,29,29,30.729,29,32.8638v62.2729
+             C29,97.2705,30.7295,99,32.8638,99h33.5249V71.8926h-9.1221v-10.565h9.1221v-7.7905c0-9.0415,5.5224-13.9648,13.5888-13.9648
+             c3.8623,0,7.1827,0.2876,8.1504,0.4165v9.4487l-5.5927,0.0024c-4.3877,0-5.2364,2.0845-5.2364,5.1431v6.7446h10.461l-1.3623,10.565
+             h-9.0987V99h17.8379C97.2705,99,99,97.2705,99,95.1367V32.8638C99,30.729,97.2705,29,95.1367,29z"/>
+         </g>
+         </svg>
+        </a>
+
+
+        </li>
+
+        <li>
+            <a href="https://github.com/Breadkenty"><svg class="social-media" x="0px" y="0px"
+            viewBox="0 0 128 128" enable-background="new 0 0 128 128" xml:space="preserve">
+         <g>
+           <circle id="github-back" fill="#FCCA46" cx="64" cy="64" r="64"/>
+           <g id="github-github">
+             <path fill-rule="evenodd" clip-rule="evenodd" fill="#FFFFFF" d="M64,29.0449c-19.791,0-35.8398,16.0449-35.8398,35.8399
+               c0,15.8349,10.2695,29.2695,24.5097,34.0088c1.791,0.331,2.4492-0.7784,2.4492-1.7247c0-0.8544-0.0332-3.6777-0.0488-6.6728
+               c-9.9707,2.168-12.0752-4.2285-12.0752-4.2285c-1.6299-4.1426-3.9795-5.2451-3.9795-5.2451
+               c-3.2519-2.2237,0.2456-2.1778,0.2456-2.1778c3.5982,0.253,5.4937,3.6953,5.4937,3.6953
+               c3.1963,5.4776,8.3847,3.8936,10.4297,2.9776c0.3222-2.3164,1.2509-3.8975,2.2754-4.793
+               c-7.96-0.9053-16.3291-3.9785-16.3291-17.7119c0-3.9126,1.4004-7.1104,3.6933-9.6196c-0.3721-0.9034-1.5996-4.5484,0.3477-9.4854
+               c0,0,3.0088-0.9624,9.8574,3.6743c2.8594-0.7939,5.9258-1.1924,8.9707-1.206c3.0459,0.0136,6.1143,0.4121,8.9785,1.206
+               c6.8408-4.6367,9.8467-3.6743,9.8467-3.6743c1.9502,4.937,0.7236,8.582,0.3516,9.4854c2.2978,2.5092,3.6884,5.707,3.6884,9.6196
+               c0,13.7666-8.3847,16.7959-16.3652,17.6846c1.2852,1.1113,2.4297,3.2929,2.4297,6.6367c0,4.7949-0.0401,8.6543-0.0401,9.8349
+               c0,0.9541,0.6456,2.0713,2.4629,1.7198c14.2315-4.7442,24.4883-18.1739,24.4883-34.0039
+               C99.8408,45.0898,83.7939,29.0449,64,29.0449z"/>
+             <path fill="#FFFFFF" d="M41.7354,80.5029c-0.0791,0.1787-0.3594,0.2315-0.6153,0.1104c-0.2597-0.1172-0.4057-0.3604-0.3213-0.5391
+               c0.0772-0.1836,0.3575-0.2344,0.6172-0.1113C41.6768,80.0801,41.8247,80.3242,41.7354,80.5029L41.7354,80.5029z M41.2939,80.1758"
+               />
+             <path fill="#FFFFFF" d="M43.1865,82.123c-0.1709,0.1583-0.5049,0.084-0.7314-0.166c-0.2354-0.25-0.2788-0.584-0.1055-0.7461
+               c0.1768-0.1562,0.5-0.083,0.7354,0.167C43.3193,81.6309,43.3652,81.9619,43.1865,82.123L43.1865,82.123z M42.8447,81.7559"/>
+             <path fill="#FFFFFF" d="M44.5996,84.1865c-0.2197,0.1533-0.5791,0.0088-0.8008-0.3095c-0.2197-0.3184-0.2197-0.7012,0.0049-0.8545
+               c0.2227-0.1524,0.5762-0.0147,0.8013,0.3017C44.8242,83.6475,44.8242,84.0303,44.5996,84.1865L44.5996,84.1865z M44.5996,84.1865"
+               />
+             <path fill="#FFFFFF" d="M46.5356,86.1797c-0.1967,0.2178-0.6147,0.1592-0.9213-0.1367c-0.3135-0.2881-0.4004-0.6992-0.2041-0.916
+               c0.2002-0.2168,0.6211-0.1553,0.9287,0.1386C46.6504,85.5537,46.7451,85.9668,46.5356,86.1797L46.5356,86.1797z M46.5356,86.1797"
+               />
+             <path fill="#FFFFFF" d="M49.2061,87.3389c-0.087,0.2802-0.4893,0.4072-0.8956,0.2881c-0.4052-0.1231-0.6699-0.4512-0.5888-0.7344
+               c0.084-0.2832,0.4892-0.4151,0.8984-0.2881C49.0254,86.7266,49.29,87.0527,49.2061,87.3389L49.2061,87.3389z M49.2061,87.3389"/>
+             <path fill="#FFFFFF" d="M52.1396,87.5527c0.0098,0.2959-0.3339,0.5411-0.7602,0.5469c-0.4282,0.0098-0.7759-0.2305-0.7798-0.5215
+               c0-0.2978,0.3359-0.54,0.7647-0.5478C51.79,87.0225,52.1396,87.2598,52.1396,87.5527L52.1396,87.5527z M52.1396,87.5527"/>
+             <path fill="#FFFFFF" d="M54.8691,87.0889c0.0508,0.2881-0.2451,0.5849-0.6679,0.6631c-0.417,0.0761-0.8018-0.1016-0.8545-0.3877
+               c-0.0518-0.2959,0.25-0.5918,0.6645-0.669C54.4355,86.623,54.8154,86.7959,54.8691,87.0889L54.8691,87.0889z M54.8691,87.0889"/>
+           </g>
+         </g>
+         </svg>
+        </a>
+        </li>
+
+        <li>
+            <a href="http://www.snapchat.com/add/breadkenty"><svg class="social-media" x="0px" y="0px"
+            viewBox="0 0 128 128" enable-background="new 0 0 128 128" xml:space="preserve">
+         <g>
+           <circle id="snapchat-back" fill="#FCCA46" cx="64" cy="64" r="64"/>
+           <g id="snapchat-snapchat">
+             <path fill="#FFFFFF" d="M64.4434,96.9424c-0.1807,0-0.3584-0.0049-0.5362-0.0127l0,0c-0.1133,0.0078-0.2314,0.0127-0.3506,0.0127
+               c-4.1582,0-6.8271-1.8867-9.4082-3.711c-1.7822-1.2597-3.4638-2.4482-5.4453-2.7783c-0.9668-0.1601-1.9297-0.2422-2.8593-0.2422
+               c-1.6763,0-2.9981,0.2598-3.9629,0.4483c-0.586,0.1152-1.0918,0.2129-1.4766,0.2129c-0.4014,0-0.8374-0.086-1.0264-0.7325
+               c-0.164-0.5605-0.2832-1.1025-0.3979-1.6269c-0.2945-1.3506-0.5034-2.1807-1.0698-2.2676
+               c-6.5948-1.0176-8.4825-2.4082-8.9034-3.3926c-0.0595-0.1425-0.0937-0.2832-0.1015-0.4238
+               c-0.0215-0.3779,0.247-0.7119,0.6211-0.7734c10.1386-1.6699,14.6855-12.0323,14.874-12.4717
+               c0.0049-0.0127,0.0107-0.0244,0.0156-0.0361c0.6211-1.2579,0.7422-2.3496,0.3633-3.2442
+               c-0.6963-1.6396-2.9658-2.3608-4.4678-2.8364c-0.3672-0.1167-0.7158-0.2271-0.9902-0.3355
+               c-2.9981-1.1845-3.2476-2.4013-3.1294-3.0205c0.2007-1.0566,1.6128-1.7929,2.7544-1.7929c0.3125,0,0.5893,0.0556,0.8203,0.164
+               c1.3486,0.6314,2.5635,0.9512,3.6128,0.9512c1.4477,0,2.0806-0.6084,2.1577-0.6885c-0.0371-0.686-0.082-1.4028-0.1289-2.1426
+               c-0.3032-4.7934-0.6768-10.749,0.8398-14.1489c4.5445-10.1914,14.1836-10.9829,17.0293-10.9829
+               c0.0733,0,1.2481-0.0127,1.2481-0.0127l0.168-0.0005c2.8525,0,12.5117,0.793,17.0595,10.9898
+               c1.5176,3.4013,1.1416,9.3628,0.8399,14.1528l-0.0127,0.208c-0.042,0.667-0.083,1.315-0.1162,1.9361
+               c0.0722,0.0737,0.6533,0.6337,1.9677,0.6835h0.001c0.9971-0.038,2.1455-0.3559,3.4043-0.9453
+               c0.3692-0.1723,0.7793-0.209,1.0576-0.209c0.4258,0,0.8584,0.0826,1.2168,0.232l0.0215,0.0093
+               c1.0186,0.3608,1.6856,1.0742,1.7002,1.8203c0.0127,0.7021-0.5234,1.7588-3.1543,2.7968
+               c-0.2715,0.1075-0.6201,0.2173-0.9892,0.3355c-1.503,0.4756-3.7715,1.1968-4.4668,2.8364
+               c-0.3809,0.8946-0.2588,1.9854,0.3613,3.2432c0.0058,0.0117,0.0117,0.0234,0.0176,0.0371
+               c0.1875,0.4394,4.7304,10.7988,14.874,12.4707c0.374,0.0615,0.6416,0.3955,0.6211,0.7744
+               c-0.0088,0.1426-0.042,0.2852-0.1045,0.4238c-0.418,0.9786-2.3037,2.3663-8.9014,3.3858c-0.539,0.083-0.748,0.7842-1.0693,2.2578
+               c-0.1172,0.5361-0.2363,1.0625-0.3985,1.6162c-0.1406,0.4805-0.4404,0.7051-0.9443,0.7051h-0.082
+               c-0.3496,0-0.8467-0.0625-1.4766-0.1856c-1.1162-0.2187-2.3691-0.4209-3.9619-0.4209c-0.9307,0-1.8936,0.0821-2.8613,0.2422
+               c-1.9795,0.3301-3.6602,1.5166-5.4385,2.7744C71.2725,95.0557,68.6035,96.9424,64.4434,96.9424z"/>
+           </g>
+         </g>
+         </svg>
+        </a>
+        </li>
+
+
+      </ul>
+    </footer>
   </body>
 </html>
